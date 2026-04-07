@@ -1,0 +1,11 @@
+timestamp,log_level,service,message,user_id,status_code
+2024-03-20 10:15:23,INFO,auth-service,User login successful,user_001,200
+2024-03-20 10:15:45,WARN,api-gateway,High latency detected,N/A,200
+2024-03-20 10:16:12,ERROR,database,Connection timeout to primary DB,N/A,500
+2024-03-20 10:16:45,INFO,payment-service,Payment processed successfully,user_002,200
+2024-03-20 10:17:01,DEBUG,cache-service,Cache hit ratio: 92%,N/A,200
+2024-03-20 10:17:30,INFO,notification-service,Email sent successfully,user_001,200
+2024-03-20 10:18:15,WARN,load-balancer,Server 3 health check failed,N/A,500
+2024-03-20 10:18:45,INFO,api-gateway,Request completed,user_003,200
+2024-03-20 10:19:22,ERROR,auth-service,Invalid credentials attempt,user_004,401
+2024-03-20 10:20:00,INFO,database,Backup completed successfully,N/A,200
